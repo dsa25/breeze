@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.my_block {
+    @apply p-6 bg-yellow-500 text-center;
+    @apply my-6 text-gray-400 !important;
+    background: rgba(66, 18, 238, 0.534);
+}
